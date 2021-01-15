@@ -14,7 +14,7 @@ const IndexPage = () => (
     
     
     <br />
-    <h1>Home Page</h1>
+    
     <p>Welcome to AudioC0RE</p>
     <p>World's leading headphones sharing app</p>
     </Layout>
