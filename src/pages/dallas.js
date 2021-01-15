@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 
-const IndexPage = () => (
+const Location1Page = () => (
   <Layout>
     <nav style={{float:'left', marginBottom:'100px'}}>
     <Link  to="/home/" style={{padding:'10px'}}>Home</Link>
@@ -14,12 +14,14 @@ const IndexPage = () => (
     
     
     <br />
-    <h1>Home Page</h1>
-    <p>Welcome to AudioC0RE</p>
-    <p>World's leading headphones sharing app</p>
+    <h1>Our Locations</h1>
+    
+    <p>We are located at dallas</p>
+    
+    <Link to="/location/" style={{padding:'10px'}}>Go back</Link><br/><br/>
     </Layout>
   
   
 )
 
-export default IndexPage
+export default Location1Page

@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 
-const IndexPage = () => (
+const AboutPage = () => (
   <Layout>
     <nav style={{float:'left', marginBottom:'100px'}}>
     <Link  to="/home/" style={{padding:'10px'}}>Home</Link>
@@ -14,12 +14,12 @@ const IndexPage = () => (
     
     
     <br />
-    <h1>Home Page</h1>
-    <p>Welcome to AudioC0RE</p>
+    <h1>About Us</h1>
+    
     <p>World's leading headphones sharing app</p>
     </Layout>
   
   
 )
 
-export default IndexPage
+export default AboutPage
