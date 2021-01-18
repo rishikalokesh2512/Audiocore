@@ -10,6 +10,7 @@ const MenuPage = () => (
     <Link  to="/" style={{padding:'10px'}}>Home</Link>
     <Link to="/about/" style={{padding:'10px'}}>About</Link>
     <Link to="/location/" style={{padding:'10px'}}>Location</Link>
+    <Link to="/blog/" style={{padding:'10px'}}>Blog</Link>
     </nav>
     
     

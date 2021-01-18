@@ -13,8 +13,22 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.md`, `.mdx`],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-remark`,
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options:{
+        path: `${__dirname}/src/pages`,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
