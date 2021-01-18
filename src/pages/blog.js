@@ -45,7 +45,6 @@ query BlogIndexQuery{
                         featuredImage{
                             childImageSharp{
                                 fixed(width:300, height:300){
-                                    
                                     ...GatsbyImageSharpFixed
                                 }
                             }
